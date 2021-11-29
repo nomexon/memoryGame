@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "memorygame-67",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
